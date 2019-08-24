@@ -1,4 +1,4 @@
-package org.ing.wbaa.configuration.entities;
+package org.streaming.configuration.entities;
 
 import java.util.Map;
 import java.util.Properties;

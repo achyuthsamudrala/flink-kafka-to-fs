@@ -1,4 +1,4 @@
-package org.ing.wbaa.serde;
+package org.streaming.serde;
 
 import org.apache.flink.api.common.typeinfo.TypeInformation;
 import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.ObjectMapper;

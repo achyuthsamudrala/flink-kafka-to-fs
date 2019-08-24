@@ -1,10 +1,11 @@
-package org.ing.wbaa;
+package org.ing.flink;
 
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.sink.SinkFunction;
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
 import org.apache.flink.test.util.AbstractTestBase;
-import org.ing.wbaa.serde.Event;
+import org.streaming.Driver;
+import org.streaming.serde.Event;
 import org.junit.Test;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;

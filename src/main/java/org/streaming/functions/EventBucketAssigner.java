@@ -1,6 +1,6 @@
-package org.ing.wbaa.functions;
+package org.streaming.functions;
 
-import org.ing.wbaa.serde.Event;
+import org.streaming.serde.Event;
 import org.apache.flink.core.io.SimpleVersionedSerializer;
 import org.apache.flink.streaming.api.functions.sink.filesystem.BucketAssigner;
 import org.apache.flink.streaming.api.functions.sink.filesystem.bucketassigners.SimpleVersionedStringSerializer;
