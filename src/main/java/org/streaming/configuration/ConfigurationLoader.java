@@ -1,9 +1,9 @@
-package org.ing.wbaa.configuration;
+package org.streaming.configuration;
 
 import com.typesafe.config.Config;
 import com.typesafe.config.ConfigBeanFactory;
 import com.typesafe.config.ConfigFactory;
-import org.ing.wbaa.configuration.entities.Configuration;
+import org.streaming.configuration.entities.Configuration;
 
 public class ConfigurationLoader {
 

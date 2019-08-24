@@ -1,12 +1,12 @@
-package org.ing.wbaa;
+package org.streaming;
 
 import org.apache.flink.streaming.api.functions.sink.SinkFunction;
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
-import org.ing.wbaa.configuration.ConfigurationLoader;
-import org.ing.wbaa.configuration.entities.Configuration;
-import org.ing.wbaa.functions.EventBucketAssigner;
-import org.ing.wbaa.serde.Event;
-import org.ing.wbaa.serde.EventDeserializationSchema;
+import org.streaming.configuration.entities.Configuration;
+import org.streaming.configuration.ConfigurationLoader;
+import org.streaming.functions.EventBucketAssigner;
+import org.streaming.serde.Event;
+import org.streaming.serde.EventDeserializationSchema;
 import org.apache.flink.core.fs.Path;
 import org.apache.flink.formats.parquet.avro.ParquetAvroWriters;
 import org.apache.flink.streaming.api.CheckpointingMode;
